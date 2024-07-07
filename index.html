@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIWEB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/graduation.png" style="height: 45px; border-radius: 150%;">
+                <br></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul style="color: goldenrod; font-size: 6;">
+                    <li><a href="songs.html" style="color: rgb(255, 255, 255);">HOME </a></li>
+                    <li><a href="https://bit.ly/459AcHO" style="color: rgb(255, 255, 255);">ABOUT</a></li>
+                    <li><a href="https://youtu.be/TEzaMd1W_8A?si=uY_xKCU1R8_5b4K3" style="color: rgb(255, 255, 255);">COURSE</a></li>
+                    <li><a href style="color: rgb(255, 255, 255);">BLOG</a></li>
+                    <li><a href style="color: rgb(255, 255, 255);">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box" style="line-height: 90%;">
+            <h1 style="color: white">Universe Most Greatest University</h1>
+            <h1>'UMGU'</h1>
+            <P style="font-size: 17px;" > We welcome you ALL to come and 
+                experience the beauty and technological advansment of this <br> great University.
+            </P>
+            <a href=""  class="hero-btn" style="color: rgb(255, 255, 255) ;font-size: small;">Visit Us To Know More</a>
+            <br>
+            
+    </section>
+    <script>
+        var navlinks = document.getElementById("nalinks");
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
